@@ -12,4 +12,7 @@
     <StartArguments>/singleplayer _MODULES_%2aNative%2aSandBoxCore%2aCustomBattle%2aSandBox%2aStoryMode%2aBannerNet%2a_MODULES_</StartArguments>
     <StartWorkingDirectory>E:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\</StartWorkingDirectory>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>/singleplayer _MODULES_%2aNative%2aSandBoxCore%2aSandBox%2aStoryMode%2aCustomBattle%2aBannerlordCEF%2a_MODULES_</StartArguments>
+  </PropertyGroup>
 </Project>
